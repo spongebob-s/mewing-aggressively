@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Testing</title>
+        <title id="title"></title>
+        <link href="src/css/normal.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Testing</h1>
+        <div class="time">
+            <p id="timeText"></p>
+        </div>
+        <h1 class="page-name" id="page-name">Welcome</h1>
+        <button id="cloak" class="left-button" onclick="cloak()">Cloak</button>
+        <button id="eject" class="middle-button" onclick="eject()">Eject</button>
+        <button id="games" class="middle-button" onclick="games()">Games</button>
+        <button id="emulators" class="middle-button" onclick="emulators()">Emulators</button>
+        <button id="home" class="right-button">Home</button>
+        <br>
+        <br>
+        <h1>What is this site?</h1>
+        <p>This site is a new way to enjoy services on the web.</p>
+        <br>
+        <h1>What does this site offer?</h1>
+        <ol>
+            <li>A cloak</li>
+            <li>An eject button</li>
+            <li>Several games</li>
+            <li>Several emulators</li>
+            <li>The current time</li>
+        </ol>
+        <script src="src/js/title.js"></script>
+        <script src="src/js/rcolor.js"></script>
+        <script src="src/js/buttons.js"></script>
+        <script src="src/js/time.js"></script>
     </body>
 </html>

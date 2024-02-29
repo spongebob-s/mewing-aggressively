@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('/src/fonts/Kanit-Regular.ttf') format('truetype');
+}
+.page-name {
+    color: gray;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+body {
+    background-image: url("/src/img/background.png");
+    background-size: 100%;
+    color: aliceblue;
+    font-family: Kanit;
+    text-align: center;
+}
+p {
+    color: rgb(100,100,140);
+    font-family: Kanit;
+}
+ol {
+    display: inline-block;
+    text-align: left;
+}
+.left-button {
+    height: 50px;
+    width: 100px;
+    background: rgb(40,40,40);
+    border-color: red;
+    font-family: Kanit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.middle-button {
+    height: 50px;
+    width: 100px;
+    background: rgb(40,40,40);
+    border-color: red;
+    font-family: Kanit;
+}
+.right-button {
+    height: 50px;
+    width: 100px;
+    background: rgb(40,40,40);
+    border-color: red;
+    font-family: Kanit;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.emulators {
+    border-radius: 10px;
+}
+.games {
+    border-radius: 10px;
+}
+.time {
+    display: flex;
+    justify-content: center;
+}
