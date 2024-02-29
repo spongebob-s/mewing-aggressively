@@ -8,7 +8,7 @@
     margin-bottom: 0px;
 }
 body {
-    background-image: url("/src/img/background.png");
+    background-image: url("../img/background.png");
     background-size: 100%;
     color: aliceblue;
     font-family: Kanit;
