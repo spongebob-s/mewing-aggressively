@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Kanit';
-    src: url('/src/fonts/Kanit-Regular.ttf') format('truetype');
+    src: url('https://spongebob-s.github.io/mewing-aggressively/src/fonts/Kanit-Regular.ttf') format('truetype');
 }
 .page-name {
     color: gray;
@@ -8,7 +8,7 @@
     margin-bottom: 0px;
 }
 body {
-    background-image: url("background.png");
+    background-image: url("https://spongebob-s.github.io/mewing-aggressively/src/img/background.png");
     background-size: 100%;
     color: aliceblue;
     font-family: "Kanit";
